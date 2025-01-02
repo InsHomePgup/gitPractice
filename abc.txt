@@ -1,2 +1,1 @@
-合并
-fetch test
+测试fetch + merge
