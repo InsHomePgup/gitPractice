@@ -1,0 +1,32 @@
+﻿[core]
+	ignorecase = false
+	quotepath = false
+	excludesfile=C:/Users/user/.gitignore
+	pager = delta
+[user]
+	email = 邮箱
+	name = 名称
+[alias]
+	ad = add
+	br = branch
+	brc = branch --show-current
+	cc = checkout --
+	cf = config
+	ck = checkout
+	cm = commit
+	cl = clone
+	cp = !git add -A && git commit -m \"update\" && git push
+	cpm = "!f() { git add -A && git commit -m \"$1\" && git push; }; f"
+	df = diff
+	fe = fetch
+	cp = !git add -A && git commit -m \"update\" && git push
+	cmp = "!f() { git add -A && git commit -m \"$1\" && git push; }; f"
+	me = merge
+	pl = pull
+	sb = submodule
+	ss = status
+	sw = switch
+	re = remote 
+	unstage = reset HEAD
+	last = log -1
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit

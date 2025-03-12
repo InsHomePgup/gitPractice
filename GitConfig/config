@@ -1,0 +1,5 @@
+Host github.com
+Hostname ssh.github.com
+User git
+IdentityFile ~/.ssh/Your_SSH_Key
+ProxyCommand ncat --proxy-type socks5 --proxy 127.0.0.1:10808 %h %p
